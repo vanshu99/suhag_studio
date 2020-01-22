@@ -1,0 +1,396 @@
+<html>
+<head>
+<style>
+
+.gallery{
+	margin:auto;
+	border:1px solid #ccc;
+	float:right;
+	width:40%;
+}	
+.gallery img{
+	width:100%;
+	height:auto;
+	margin:auto;
+}
+
+h1{
+	font-family:lucide grande;
+	font-size:60px;
+	text-align: center;
+}
+
+.body {
+	background-image:url("img/08.jpg");
+	position:relative;
+	background-position: center;
+	background-size:cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	
+	padding:30px 0px 20px 0px;
+	min-height:130%;
+	min-width: 100%;
+	} 
+
+.imgs{
+	
+	background-position:absolute;
+	margin :15px;
+	width:auto;	
+}
+.nav-bar a:hover{
+	background-color: grey;
+}
+
+.nav-bar a {
+  color: white;
+  text-align: center;
+  padding: 25px 20px  ;
+  text-decoration: none;
+  font-size: 35px;
+  font-family:lucide grande;
+  border-width: 40px;
+
+}
+
+.vertical-text {
+    font-size: 100px;
+    word-break: break-word;
+    width: 0;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+   margin:0;
+    position: absolute;
+    top: 10%;
+    left: 55%;
+    border-width: 50px;
+   }
+
+   
+.img2{
+  
+  	background-color: black;
+  }
+#shoot{
+    color:white;
+    font-size:80px;
+    margin:20px 0px 20px 70px;
+    font-family:arial;
+}
+
+#div1 {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial;
+}
+
+/* The grid: Four equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 24%;
+  padding: 2px;
+}
+
+/* Style the images inside the grid */
+.column img {
+  opacity: 0.8; 
+  cursor: pointer; 
+}
+
+.column img:hover {
+  opacity: 1;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+
+}
+
+/* The expanding image container */
+.container {
+  position: relative;
+  display: none;
+  background-color:grey;
+  background-image: url("img/18.jpg");
+  position:relative;
+  background-size: cover;
+  background-attachment: fixed;
+  font:right;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+/* Expanding image text */
+#imgtext {
+  position: absolute;
+  bottom: 15px;
+  left: 15px;
+  color: white;
+  font-size: 30px;
+}
+
+/* Closable button inside the expanded image */
+.closebtn {
+  position: absolute;
+  top: 10px;
+  right: 15px;
+  color: white;
+  font-size: 35px;
+  cursor: pointer;
+}
+.image{
+	float:left;
+}
+.image1{
+	float:right;
+}
+#h11{
+	font-family: bold;
+	color:white;
+}
+#p12{
+	font-size: 35px;
+	padding:30px 80px 20px 80px;
+	font-family: serif;
+}
+#p13{
+	font-size: 40px;
+	clear:left;
+	padding:30px 80px 20px 80px;
+	font-family: serif;
+	color:grey;
+	
+}
+.image2{
+	float:left;
+}
+#p14{
+	font-size:35px;
+	padding:30px 80px 20px 80px;
+	clear:right;
+	font-family:serif;
+}
+#pre{
+	margin-top: 0px;
+	align-items: center;
+	clear:both;
+	
+
+}
+#p15{
+	clear:right;
+}
+.vedio1{
+	float:right;
+	margin-top: 0px;
+}
+
+em{
+	color:red;
+	font-size:70px;
+	font-family: Monaco;
+	text-shadow:6px 6px 5px black;
+	
+}
+#p16{
+	 width: 300px;
+  height: 100px;
+  padding: 15px;
+  background-color: yellow;
+  box-shadow: 10px 10px;
+
+}
+#back{
+	background-image: url(img/30.jpg);
+}
+#img5{
+	margin:0px 20px 0px 120px;
+}
+
+
+</style>	
+
+</head>
+<body>
+
+
+     <div class="body">
+	 <div class="imgs">
+    <div class="nav-bar">
+    	
+		<a href="#home">Home</a>
+		<a href="#services">Our Services</a>
+		<a href="#portfolio">Portfolio</a>
+		<a href="#teams">The Team</a>
+		<a href="#gallery">Gallery</a>
+		<a href="#client-feedback">Testimonials</a>
+		<a href="#contact">Contact</a>
+				
+	</div>
+	</div>
+	<br/>
+	<div>
+       <div class="vertical-text">GALLERY</div>
+		
+	<div class="gallery">
+
+		<a target="_blank" href="img/07.jpg">
+		<img src="img/07.jpg" width="40%" height="100%">
+	    </a>
+	    
+
+	</div>
+	</div>
+	</div>
+    <div>
+    	<img src="img/31.jpg" height="110%" width="80%">
+    </div>
+    <div>
+    	<img src="img/32.jpg" height="100%" width="40%">
+    	<img src="img/12.jpg" height="100%" width="45%">
+    	  
+
+    </div>	
+    <div class="img2">
+    	<h1 id="shoot">BRIDAL SHOOT</h1>
+    	<img src="img/05.jpg" height="110%" width="100%">
+    	
+    </div>
+    
+
+<div id="div1">
+    <div style="text-align:center">
+  <h2>Tabbed Image Gallery</h2>
+  <p>Click on the images below:</p>
+</div>
+
+<!-- The four columns -->
+<div class="row">
+  <div class="column">
+    <img src="img/14.jpg" alt="PRE-WEDDING SHOOT" style="width:100%" onclick="myFunction(this);">
+  </div>
+  <div class="column">
+    <img src="img/15.jpg" alt="PRE-WEDDING SHOOT" style="width:100%" onclick="myFunction(this);">
+  </div>
+  <div class="column">
+    <img src="img/16.jpg" alt="PRE-WEDDING SHOOT" style="width:100%" onclick="myFunction(this);">
+  </div>
+  <div class="column">
+    <img src="img/18.jpg" alt="PRE-WEDDING SHOOT" style="width:100%" onclick="myFunction(this);">
+  </div>
+ 
+</div>
+
+<div class="container">
+  <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
+  <img id="expandedImg" style="width:50%">
+  <div id="imgtext"></div>
+</div>
+</div>
+
+
+<!--BACK ID START-->
+
+<div id="back">
+<div >
+	<h1 id="h11">GALLERY..</h1>
+	<p id="p12"><img src="img/33.jpg" style="width:50%; height:70%; margin-right: 15px;" class="image"><br/><br/>
+      &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp; &nbsp;<em>WEDDING SHOOT</em> <br/>
+
+	</p>
+</div>	
+<div>
+	<p id="p13" style="color:black"><img src="img/22.jpg" style="width:50%; height:70%; margin-left: 15px;" class="image1"><br/><br/><br/>
+      &nbsp; &nbsp; &nbsp;   <em>PRE-WEDDING SHOOT</em> <br/><br/><br/>
+      A pre-wedding shoot, often referred to as an engagement shoot, is a photo shoot that usually takes place three to six months prior to the wedding day. Though pre-wedding shoots have become a necessity for most, a lot of couples have started debating on whether or not they should have one.
+	</p>
+</div>
+<div>
+	<p id="p14"><img src="img/25.jpg" style="width:60%; height:70%; margin-right: 15px;" class="image2"><br/><br/>
+      &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp; <em>BRIDAL SHOOT</em>
+	</p>
+</div>	
+
+
+<div id="pre">
+	
+<p id="p15"> 
+<video class="vedio1" width="800" height="850" controls>
+  <source src="img/26.mp4" type="video/mp4">
+  
+  
+</video><br/><br/><br/><br/><br/><br/><br/><br/>
+<br/><br/><br/><br/><br/>
+<br/><br/> <br/><br/>
+ &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp;   <em>PRE-WEDDING VEDIO</em><br/><br/>
+</p>
+<p id="p13"> A pre-wedding shoot, often referred to as an engagement shoot, is a photo shoot that usually takes place three to six months prior to the wedding day. Though pre-wedding shoots have become a necessity for most, a lot of couples have started debating on whether or not they should have one.
+	</p>
+</div>
+
+</div>
+
+<!--BACK ID END-->
+
+
+<div id="img5">
+	<img src="img/29.jpg" height="120%" width="90%">
+</div>
+<div>
+     <img id="img4" src="img/34.jpg" height="130%" width="100%">  
+
+</div>	
+ <div id="img6">
+  <p id="p14"><img src="img/38.jpg" style="width:60%; height:70%; margin-right: 15px;" class="image2"><br/><br/>
+      &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp; <em>FASHION SHOOT</em>
+  </p>
+
+ <div>     
+     <p id="p13" style="color:black"><img src="img/36.jpg" style="width:50%; height:70%; margin-left: 15px;" class="image1"><br/><br/><br/>
+      &nbsp; &nbsp; &nbsp;   <em>PRE-WEDDING SHOOT</em> <br/><br/><br/>
+  
+    </div> 
+ <div>
+  <p id="p14"><img src="img/39.jpg" style="width:60%; height:70%; margin-right: 15px;" class="image2"><br/><br/>
+      &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp; <em>FASHION SHOOT</em>
+  </p>
+
+ </div>    
+<div>
+   <p id="p13" style="color:black"><img src="img/40.jpg" style="width:50%; height:70%; margin-left: 15px;" class="image1"><br/><br/><br/>
+      &nbsp; &nbsp; &nbsp;   <em>PRE-BORN SHOOT</em> <br/><br/><br/>
+  
+</div>
+<div>
+  <p id="p14"><img src="img/41.jpg" style="width:60%; height:80%; margin-right: 15px;" class="image2"><br/><br/>
+      &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp; <em>PRE WEDDING SHOOT</em>
+  </p>
+
+  </div>
+
+ <p id="p13" style="color:black"><img src="img/19.jpg" style="width:50%; height:120%; margin-left: 15px;" class="image1"><br/><br/><br/>
+      &nbsp; &nbsp; &nbsp;   <em>FASHION SHOOT</em> <br/><br/><br/>
+  
+ 
+</div>
+<script>
+function myFunction(imgs) {
+  var expandImg= document.getElementById("expandedImg");
+  var imgText = document.getElementById("imgtext");
+  expandImg.src = imgs.src;
+  imgText.innerHTML = imgs.alt;
+  expandImg.parentElement.style.display = "block";
+}
+</script>
+
+
+</body>	
+</html>
